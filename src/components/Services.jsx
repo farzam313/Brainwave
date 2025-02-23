@@ -16,7 +16,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Generative AI Made for Creators."
-          text="Brainwave Unlocks the ptential of AI-powered applications"
+          text="Brainwave Unlocks the potential of AI-powered applications"
         />
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem] ">
@@ -41,7 +41,7 @@ const Services = () => {
                     className="flex items-start py-4 border-t border-n-6"
                   >
                     <img width={24} height={24} src={check} />
-                    <p>{item}</p>
+                    <p className="ml-4"> {item}</p>
                   </li>
                 ))}
               </ul>
@@ -76,7 +76,7 @@ const Services = () => {
                 <h4 className="h4 mb-4">Video Generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   The world&apos;s most powerful AI photo and video art
-                  generation engine. what will you create?
+                  generation engine. What will you create?
                 </p>
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
@@ -110,11 +110,11 @@ const Services = () => {
                   alt="Scary robot"
                 />
                 <VideoChatMessage />
-                <videoBar />
+                <VideoBar />
               </div>
             </div>
-            <Gradient />
           </div>
+          <Gradient />
         </div>
       </div>
     </Section>
